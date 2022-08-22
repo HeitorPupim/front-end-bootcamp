@@ -32,3 +32,14 @@ Creating a Table:
     tbody = table body
 
     tfooter = table footer
+
+###### Forms:
+
+label  = describe the forms as a label
+
+input : specify the kind of input you want to show the user.
+
+* type (more info on:  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+  * "submit" - button to send the forms.
+  * "text" - write text in forms.
