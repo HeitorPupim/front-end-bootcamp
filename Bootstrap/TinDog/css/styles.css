@@ -70,6 +70,7 @@ p {
 
 .title-image{
      width: 60%;
+     padding-left: 10%;
      transform: rotate(25deg);
      
 }
