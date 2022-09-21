@@ -32,9 +32,21 @@ p {
      color: #fff;
 }
 
+/* Containers */
 
 .container-fluid {
      padding: 3% 15% 7%;
+}
+
+/* Sections */
+
+.colored-section{
+     background-color: #ff4c68;
+     color: #fff;
+}
+
+.white-section {
+     background-color: #fff;
 }
 
 /* Navigation Bar: */
@@ -103,9 +115,8 @@ p {
 
 /*   Testimonial    */
 
-#testimonials{
+#testimonials {
      background-color: #ef8172;
-     color: #fff;
 }
 
 .testimonial-text{
@@ -153,10 +164,7 @@ p {
 /* CTA Section */
 
 #cta{
-     background-color: #ff4c68;
-     color: #fff;
      padding: 7% 15%;
-     
 }
 
 .cta-heading {
