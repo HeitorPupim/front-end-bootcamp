@@ -1,8 +1,6 @@
 //jshint esversion: 6
-const { response } = require('express');
 const express = require('express');
 const https = require('https');
-const { dirname } = require('path');
 const app = express();
 
 app.use(express.static('public'));
@@ -65,7 +63,8 @@ app.post("/failure", (req,res) => {
 });
 
 
-app.listen(3001, () => {
+//dinamic port on heroku..
+app.listen(process.env.PORT || 3001, () => {
    console.log("Server is running on port 3001...");
 })
 
